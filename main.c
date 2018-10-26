@@ -3,6 +3,7 @@
 int main()
 {
     int amt,a,b,c,d,e,f,g,h;
+    //hey bro nice code namsaste
     printf("Enter amount in rupees = ");
     scanf("%d",&amt);
 
