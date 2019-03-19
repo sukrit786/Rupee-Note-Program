@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .buttonContainer {
+                width: 148px;
+            }
+
+            .buttonContainer > .buttonClass {
+                width: 72px;
+                height: 48px;
+                font-size: 16px;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div id='btns' class='buttonContainer'>
+            <button id='btn1' class='buttonClass'>1</button>
+            <button id='btn2' class='buttonClass'>2</button>
+            <button id='btn3' class='buttonClass'>3</button>
+            <button id='btn4' class='buttonClass'>4</button>
+        </div>
+
+        <script>
+            document.getElementById('btn1').onclick = function() {
+                document.getElementById('btn1').innerHTML++;
+            };
+
+            document.getElementById('btn2').onclick = function() {
+                document.getElementById('btn2').innerHTML++;
+            };
+            
+            document.getElementById('btn3').onclick = function() {
+                document.getElementById('btn3').innerHTML++;
+            };
+            
+            document.getElementById('btn4').onclick = function() {
+                document.getElementById('btn4').innerHTML++;
+            };
+        </script>
+    </body>
+</html>
